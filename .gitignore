@@ -1,2 +1,4 @@
 /tif_data
 *.png
+!resultats/exemple_everest.png
+!resultats/exemple_paris.png
