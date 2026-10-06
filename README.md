@@ -15,7 +15,7 @@ pip install rasterio numpy pillow
 python topoMap.py
 ```
 Le code demande ensuite deux input : Latitude et Longitude (à 1° près)
-On rentre donc les coordonnées dans la forme \texttt{N27} (N/S 0-90) puis \texttt{E086} (E/W 0-180)
+On rentre donc les coordonnées dans la forme `N27` (N/S 0-89) puis `E086` (E/W 0-180).
 Cet exemple de coordonnées donne l'Hymalaya autour dans la tuile où se situe l'Everest.
 Les cartes sont enregistrées dans le dossier "resultats".
 
@@ -25,5 +25,7 @@ La précision des données est d'un points tout les 30m.
 
 ## Exemple
 Deux exemples sont disponible dans le dossier "resultats" : 
-Les entrées \texttt{N27} puis \texttt{E086} donne la carte exemple_everest.png.
-Les entrées \texttt{N48} puis \texttt{E002} donne la carte exemple_paris.png.
+
+Les entrées `N27` puis `E086` donne la carte exemple_everest.png.
+
+Les entrées `N48` puis `E002` donne la carte exemple_paris.png.
