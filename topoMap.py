@@ -7,6 +7,8 @@ from pathlib import Path
 from PIL import Image
 
 BASE = "https://copernicus-dem-30m.s3.amazonaws.com/{t}/{t}.tif"
+Path("tif_data").mkdir(exist_ok=True)
+Path("resultats").mkdir(exist_ok=True)
 
 def telecharger(nom, dossier="."):
     dest = Path(dossier) / f"{nom}.tif"
